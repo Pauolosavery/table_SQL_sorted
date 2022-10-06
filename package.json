@@ -2,7 +2,7 @@
     "name": "322",
     "version": "1.0.0",
     "description": "",
-    "main": "index.js",
+    "main": "app.js",
     "scripts": {
       "postinstall": "cd server && npm i && npx sequelize db:migrate && cd ../client && npm i && npm run build",
       "start": "cd server && npm start"
