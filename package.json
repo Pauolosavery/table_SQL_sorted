@@ -1,0 +1,21 @@
+{
+    "name": "322",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "postinstall": "cd server && npm i && npx sequelize db:migrate && cd ../client && npm i && npm run build",
+      "start": "cd server && npm start"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Pauolosavery/table_SQL_sorted"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/Pauolosavery/table_SQL_sorted"
+    },
+    "homepage": "https://github.com/Lexu/tigers-network#readme"
+  }
